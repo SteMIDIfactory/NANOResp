@@ -33,5 +33,5 @@ conda activate ONT
 gdown https://drive.google.com/file/d/10avumi4817w3iahEadj6AfkM_Z_jWtGt/view?usp=drive_link
 tar -zxf Additional_folders.tar.gz
 ```
-5. Set all variables in the manager.sh script header. Most importantly, you can decide to run the script during live sequencing (basecalling not included) or on after sequencing and basecalling using the ontime tool. Please note: the variables are currently set to work on our cluster, please take some time to adapt it to yours.
+5. Set all variables in the **manager.sh script header**. Most importantly, you can decide to run the script during live sequencing (basecalling not included) or on after sequencing and basecalling using the ontime tool. Please note: the variables are currently set to work on our cluster, please take some time to adapt it to yours.
 6. Usage: `sbatch manager.sh Run1 [Run2 Run3 Run4]`
